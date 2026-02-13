@@ -30,9 +30,9 @@ Hands-on Oracle Multitenant Architecture assignment demonstrating PDB creation, 
 ```sql
 CREATE PLUGGABLE DATABASE [pdb_name]
 ADMIN USER [NADDY] IDENTIFIED BY [12345]
-FILE_NAME_CONVERT = ('pdbseed', '[pdb_RO_pdb_29003]');
+FILE_NAME_CONVERT = ('pdbseed', '[pdb_NA_pdb_29003]');
 
-ALTER PLUGGABLE DATABASE [pdb_RO_pdb_29003] OPEN;
+ALTER PLUGGABLE DATABASE [pdb_NA_pdb_29003] OPEN;
 GRANT CONNECT, RESOURCE, DBA TO [NADDY_PLSQLAUCA_29003];
 ```
 
@@ -101,14 +101,14 @@ oracle_pdb_ass_II_[studentId]_[firstname]/
 
 ## Academic Integrity Statement
 
-I, **[Your Full Name]** (ID: **[Your Student ID]**), declare this work is completed individually. All commands, screenshots, and documentation are my own. No AI tools or collaboration were used.
+I, **[INGABIRE NADDY]** (ID: **[29003]**), declare this work is completed individually. All commands, screenshots, and documentation are my own. No AI tools or collaboration were used.
 
-**Signed:** [Your Name]  
-**Date:** [Submission Date]
+**Signed:** [INGABIRE NADDY]  
+**Date:** [1/FEBRUARY/2026]
 
 ---
 
 ## Submission
 - **Repository:** PUBLIC ✓
-- **Main PDB:** [Your PDB name]
+- **Main PDB:** []
 - **Status:** Complete
